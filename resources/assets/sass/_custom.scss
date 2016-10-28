@@ -1,0 +1,44 @@
+.card-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: $color-black-awesome;
+  display: block;
+  padding: 1rem 0;
+  border: 0;
+}
+
+.card-navbar {
+  //background-color: $color-black-awesome;
+  background-color: $color-bouquet;
+  border-radius: 0;
+  border: 0;
+
+  .navbar-header {
+    .navbar-brand {
+      color: $color-white;
+
+      &:hover,
+      &:visited {
+        color: $color-white;
+      }
+    }
+  }
+
+  .navbar-nav {
+    li {
+      a {
+        color: $color-white;
+
+        &:hover,
+        &:visited {
+          color: $color-white;
+        }
+       }
+    }
+  }
+}
+
+.navbar-brand {
+  color: $color-white;
+}
