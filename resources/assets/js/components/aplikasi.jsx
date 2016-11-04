@@ -83,9 +83,9 @@ class Aplikasi extends React.Component {
     this.sendData(asdf).then((res) => {
       var baru = this.state.data
       baru.push(res)
-      //this.setState({data: baru})
+      this.setState({data: baru})
       // or
-      this.setState(baru)
+      //this.setState(baru)
       taskName.value = ''
       taskName.focus()
       taskDesc.value = ''

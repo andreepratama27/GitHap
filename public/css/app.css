@@ -5766,27 +5766,15 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-.card-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: #3a3f44;
-  display: block;
-  padding: 1rem 0;
-  border: 0; }
+body {
+  background-color: #fff; }
 
 .card-navbar {
-  background-color: #b37399;
-  border-radius: 0;
-  border: 0; }
-  .card-navbar .navbar-header .navbar-brand {
-    color: #fff; }
-    .card-navbar .navbar-header .navbar-brand:hover, .card-navbar .navbar-header .navbar-brand:visited {
-      color: #fff; }
-  .card-navbar .navbar-nav li a {
-    color: #fff; }
-    .card-navbar .navbar-nav li a:hover, .card-navbar .navbar-nav li a:visited {
-      color: #fff; }
+  background-color: #333333; }
+
+.btn-add-task {
+  background-color: #333333;
+  color: #333333; }
 
 .navbar-brand {
   color: #fff; }
