@@ -15,13 +15,16 @@ require('laravel-elixir-vue-2');
 
 elixir(mix => {
     mix.sass('app.scss')
+       //.webpack('app.js')
        .webpack('app.js')
+       .webpack('apps.js', 'public/js/apps.js')
        .webpack('**.jsx')
 
     mix.browserSync({
         files: ['public/js/**/*.js', 'public/css/**/*.css'],
         proxy: {
           target: 'http://localhost:2000'
-        }
+        },
+        browser: 'google chrome'
     })
 });

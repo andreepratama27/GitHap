@@ -14,5 +14,5 @@
 @endsection
 
 @section('scripts')
-  <script src="{!! url('js/all.js') !!}"></script>
+  <script src="{!! url('js/apps.js') !!}"></script>
 @endsection
