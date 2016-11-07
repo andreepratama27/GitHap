@@ -37,3 +37,97 @@ body {
 .pull-bottom-20 {
   margin-bottom: 2rem;
 }
+
+.set-center {
+  text-align: center;
+
+  .btn {
+    width: 21.6rem;
+  }
+}
+
+.panel-user-detail {
+  border-radius: 0;
+  .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    img {
+      width: 100%;
+    }
+  }
+  .panel-body {
+    .text-name {
+      font-weight: bold;
+      font-size: 2.5rem;
+    }
+    .text-username {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+.panel-user-repository {
+  border-radius: 0;
+  .panel-heading {
+    background-color: $color-midnight-blue;
+    color: $color-white;
+  }
+  .panel-body {
+    padding: 0;
+    ul {
+      margin-bottom: 0;
+      li {
+        border-left: 0;
+        border-right: 0;
+        text-align: center;
+        &:last-child {
+          border-bottom: 0;
+        }
+        &:first-child {
+          border-top: 0;
+        }
+        a {
+          color: #333;
+          &:hover,
+          &:visited {
+            color: #333;
+          }
+        }
+      }
+    }
+  }
+}
+
+.githap-cards {
+  border-radius: 0;
+  .panel-heading {
+    padding: 0;
+    text-align: center;
+    border-bottom: 0;
+    .username {
+      position: absolute;
+      top: 0.5rem;
+      color: $color-white;
+      left: 2rem;
+      text-align: center;
+    }
+    img {
+      width: 100%;
+      height: 25rem;
+    }
+  }
+  .panel-footer {
+    border-top: 0;
+    background-color: #333;
+    color: $color-white;
+    a {
+      color: $color-white;
+      &:visited,
+      &:hover {
+        color: $color-white;
+      }
+    }
+  }
+}

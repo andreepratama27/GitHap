@@ -6,6 +6,11 @@ class Navbar extends React.Component {
           <div className="navbar-header">
             <a href="#" className="navbar-brand">React JS.</a>
           </div>
+          <ul className="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">Home</a>
+            </li>
+          </ul>
         </div>
       </div>
     )

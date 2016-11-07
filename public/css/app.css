@@ -5800,4 +5800,70 @@ body {
 .pull-bottom-20 {
   margin-bottom: 2rem; }
 
+.set-center {
+  text-align: center; }
+  .set-center .btn {
+    width: 21.6rem; }
+
+.panel-user-detail {
+  border-radius: 0; }
+  .panel-user-detail .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0; }
+    .panel-user-detail .panel-heading img {
+      width: 100%; }
+  .panel-user-detail .panel-body .text-name {
+    font-weight: bold;
+    font-size: 2.5rem; }
+  .panel-user-detail .panel-body .text-username {
+    font-size: 1.6rem; }
+
+.panel-user-repository {
+  border-radius: 0; }
+  .panel-user-repository .panel-heading {
+    background-color: #036;
+    color: #fff; }
+  .panel-user-repository .panel-body {
+    padding: 0; }
+    .panel-user-repository .panel-body ul {
+      margin-bottom: 0; }
+      .panel-user-repository .panel-body ul li {
+        border-left: 0;
+        border-right: 0;
+        text-align: center; }
+        .panel-user-repository .panel-body ul li:last-child {
+          border-bottom: 0; }
+        .panel-user-repository .panel-body ul li:first-child {
+          border-top: 0; }
+        .panel-user-repository .panel-body ul li a {
+          color: #333; }
+          .panel-user-repository .panel-body ul li a:hover, .panel-user-repository .panel-body ul li a:visited {
+            color: #333; }
+
+.githap-cards {
+  border-radius: 0; }
+  .githap-cards .panel-heading {
+    padding: 0;
+    text-align: center;
+    border-bottom: 0; }
+    .githap-cards .panel-heading .username {
+      position: absolute;
+      top: 0.5rem;
+      color: #fff;
+      left: 2rem;
+      text-align: center; }
+    .githap-cards .panel-heading img {
+      width: 100%;
+      height: 25rem; }
+  .githap-cards .panel-footer {
+    border-top: 0;
+    background-color: #333;
+    color: #fff; }
+    .githap-cards .panel-footer a {
+      color: #fff; }
+      .githap-cards .panel-footer a:visited, .githap-cards .panel-footer a:hover {
+        color: #fff; }
+
 /*# sourceMappingURL=app.css.map */

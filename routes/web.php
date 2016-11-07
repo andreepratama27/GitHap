@@ -14,3 +14,17 @@
 Route::get('/', function () {
   return View('layout.index');
 });
+
+// Route::get('/githap', function () {
+//  return View('layout.githap');
+// });
+
+Route::group(['prefix' => 'githap'], function () {
+  Route::get('/', function () {
+    return View('layout.githap');
+  });
+
+  Route::get('{url}/{username}', function ($url, $username) {
+    return View('layout.githap');
+  });
+});
