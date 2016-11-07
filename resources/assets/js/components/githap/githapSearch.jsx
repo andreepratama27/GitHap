@@ -6,7 +6,9 @@ class GithapSearch extends React.Component {
           <input type='text' className='form-control' name={this.props.name} placeholder="Masukan username" />
           <br />
           <div className="set-center">
-            <button className="btn btn-default" onClick={this.props.click} name={this.props.button}>Cari Repositori</button>
+            <button className="btn btn-default" onClick={this.props.click} name={this.props.button}>
+              Cari Repository
+            </button>
           </div>
         </div>
       </div>

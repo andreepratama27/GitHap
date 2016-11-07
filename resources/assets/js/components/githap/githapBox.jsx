@@ -7,7 +7,7 @@ class GithapBox extends React.Component {
         <div className="panel panel-default githap-cards">
           <div className="panel-heading">
             <img src={this.props.data.avatar_url}></img>
-            <div className="username">
+            <div className="username label label-primary">
               {this.props.data.login}
             </div>
           </div>

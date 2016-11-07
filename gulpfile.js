@@ -21,6 +21,7 @@ elixir(mix => {
        .webpack('apps.js', 'public/js/apps.js')
        .webpack('githap.js', 'public/js/githap.js')
        .webpack('**.jsx')
+    mix.copy('node_modules/font-awesome/fonts/', 'public/fonts')
 
     mix.browserSync({
         files: ['public/js/**/*.js', 'public/css/**/*.css'],

@@ -1,5 +1,6 @@
 import $ from 'jquery'
 import RepoCards from './repoCards.jsx'
+import { Link } from 'react-router'
 
 class UserDetail extends React.Component {
   constructor () {
@@ -48,6 +49,9 @@ class UserDetail extends React.Component {
                   <div className="panel-body">
                     <div className="text-name">{this.state.users.name}</div>
                     <div className="text-username">@{this.state.users.login}</div>
+                  </div>
+                  <div className="panel-footer">
+                    <Link to="/githap">Kembali ke halaman utama</Link>
                   </div>
                 </div>
               </div>

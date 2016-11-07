@@ -20,7 +20,7 @@ class App extends React.Component {
           $('button[name=searchRepo]').html('loading..')
         },
         success: () => {
-          $('button[name=searchRepo]').html('Cari repositori')
+          $('button[name=searchRepo]').html('Cari Repository')
         }
       })
       .done((res) => {
@@ -33,6 +33,7 @@ class App extends React.Component {
   }
 
   componentDidMount () {
+    $('.alert-danger').hide()
   }
 
   getData () {
@@ -40,7 +41,13 @@ class App extends React.Component {
 
     this._getData('http://api.github.com/users/' + _username).then((res) => {
       this.setState({cards: [res]})
-    } /*untuk errornya disini*/)
+    }, (err) => {
+      $('.alert-danger').fadeTo(2000, 500).slideUp(500, () => {
+        $('.alert-danger').slideUp(500)
+        $('.alert-danger').addClass('hidden')
+      })
+      $('button[name=searchRepo]').html('Cari Repository')
+    })
   }
 
   render () {
@@ -53,6 +60,10 @@ class App extends React.Component {
             <GithapSearch button="searchRepo" name="username" click={this.getData.bind(this)}></GithapSearch>
 
             <div className="clearfix"></div>
+
+            <div className="alert alert-danger" role="alert">
+              <b>Maaf!</b>, repository tidak ditemukan.
+            </div>
 
             {
               this.state.cards.map((v,i) => {
