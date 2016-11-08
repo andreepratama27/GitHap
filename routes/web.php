@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-  return View('layout.index');
-});
+// Route::get('/', function () {
+//   return View('layout.index');
+// });
 
 // Route::get('/githap', function () {
 //  return View('layout.githap');
