@@ -13,5 +13,6 @@
 @endsection
 
 @section('scripts')
-    <script src="{!! asset('js/githap.js') !!}"></script>
+    <!-- <script src="{!! asset('js/githap.js') !!}"></script> -->
+    <script src="https://young-wildwood-98581.herokuapp.com/js/githap.js"></script>
 @endsection
