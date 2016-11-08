@@ -39,7 +39,7 @@ class App extends React.Component {
   getData () {
     const _username = document.querySelector('input[name=username]').value
 
-    this._getData('http://api.github.com/users/' + _username).then((res) => {
+    this._getData('https://api.github.com/users/' + _username).then((res) => {
       this.setState({cards: [res]})
     }, (err) => {
       $('.alert-danger').fadeTo(2000, 500).slideUp(500, () => {

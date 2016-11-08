@@ -24,7 +24,7 @@ class UserDetail extends React.Component {
     return new Promise((resolve, reject) => {
       $.ajax({
         method: 'GET',
-        url: 'http://api.github.com/users/'+username
+        url: 'https://api.github.com/users/'+username
       })
       .done((res) => {
         resolve(res)
