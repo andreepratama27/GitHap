@@ -12,7 +12,7 @@ class RepoCards extends React.Component {
                 <a href="#">Copy Link</a>
               </li>
               <li className="list-group-item list-group-item-success">
-                <a href="#">Lihat Repository</a>
+                <a href={this.props.data.html_url} target="_blank">Lihat Repository</a>
               </li>
             </ul>
           </div>
