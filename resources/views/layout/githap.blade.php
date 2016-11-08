@@ -5,7 +5,7 @@
 @endsection
 
 @section('styles')
-  <link rel="stylesheet" href="{!! url('css/app.css') !!}">
+  <link rel="stylesheet" href="{!! asset('css/app.css') !!}">
 @endsection
 
 @section('contents')
@@ -13,5 +13,5 @@
 @endsection
 
 @section('scripts')
-    <script src="{!! url('js/githap.js') !!}"></script>
+    <script src="{!! asset('js/githap.js') !!}"></script>
 @endsection
