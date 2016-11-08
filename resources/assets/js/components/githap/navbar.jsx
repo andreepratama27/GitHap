@@ -14,7 +14,7 @@ class Navbar extends React.Component {
                 <Link onlyActiveOnIndex activeStyle={{color: '#53acff'}} to='/githap'>Home</Link>
               </li>
               <li>
-                <Link to='/githap/tentang' activeStyle={{color: '#53acff'}}>Tentang</Link>
+                <Link to='/githap/tentang' activeStyle={{color: '#53acff'}}>Tentang Saya</Link>
               </li>
           </ul>
         </div>

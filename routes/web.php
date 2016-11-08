@@ -24,7 +24,7 @@ Route::get('/', function () {
 });
 
 Route::group(['prefix' => 'githap'], function () {
-  Route::get('/', function () {
+  Route::get('/{url}', function ($url) {
     return View('layout.githap');
   });
 

@@ -51,7 +51,7 @@ class UserDetail extends React.Component {
                     <div className="text-username">@{this.state.users.login}</div>
                   </div>
                   <div className="panel-footer">
-                    <Link to="/githap">Kembali ke halaman utama</Link>
+                    <Link to="/githap"><i className="fa fa-angle-double-left"></i> Kembali ke halaman utama</Link>
                   </div>
                 </div>
               </div>

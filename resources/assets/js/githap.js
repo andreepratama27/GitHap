@@ -2,6 +2,8 @@ import App from './components/githap/app.jsx'
 import Tentang from './components/githap/tentang.jsx'
 import UserDetail from './components/githap/userDetail.jsx'
 import Navbar from './components/githap/navbar.jsx'
+import Footer from './components/githap/footer.jsx'
+
 import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router'
 
 class Githap extends React.Component {
@@ -10,6 +12,7 @@ class Githap extends React.Component {
       <div>
         <Navbar />
         {this.props.children}
+        <Footer />
       </div>
     )
   }

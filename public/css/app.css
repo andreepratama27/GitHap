@@ -8209,4 +8209,14 @@ body {
       .githap-cards .panel-footer a:visited, .githap-cards .panel-footer a:hover {
         color: #fff; }
 
+.footer {
+  border: 1px solid;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem 0;
+  border-top: 1px solid #d3e0e9; }
+  .footer .text-footer {
+    text-align: center; }
+
 /*# sourceMappingURL=app.css.map */

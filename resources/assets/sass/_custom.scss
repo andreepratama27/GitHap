@@ -150,3 +150,16 @@ body {
     }
   }
 }
+
+.footer {
+  border: 1px solid;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem 0;
+  border-top: 1px solid #d3e0e9;
+
+  .text-footer {
+    text-align: center;
+  }
+}
