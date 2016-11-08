@@ -18,6 +18,8 @@ class UserDetail extends React.Component {
     this._getData(this.props.params.username + '/repos').then((res) => {
       this.setState({repos: res})
     })
+
+    $('footer').css('position', 'relative')
   }
 
   _getData (username) {

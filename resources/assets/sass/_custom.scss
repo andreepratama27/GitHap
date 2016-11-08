@@ -37,6 +37,15 @@ body {
 .pull-bottom-20 {
   margin-bottom: 2rem;
 }
+.pull-bottom-30 {
+  margin-bottom: 3rem;
+}
+.pull-bottom-40 {
+  margin-bottom: 4rem;
+}
+.pull-bottom-50 {
+  margin-bottom: 5rem;
+}
 
 .set-center {
   text-align: center;
@@ -153,11 +162,11 @@ body {
 
 .footer {
   border: 1px solid;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
   padding: 1rem 0;
   border-top: 1px solid #d3e0e9;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
 
   .text-footer {
     text-align: center;

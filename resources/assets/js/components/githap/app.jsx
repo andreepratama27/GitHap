@@ -34,6 +34,9 @@ class App extends React.Component {
 
   componentDidMount () {
     $('.alert-danger').hide()
+    $('footer').css('position', 'absolute')
+               .css('width', '100%')
+               .css('bottom', '0')
   }
 
   getData () {
